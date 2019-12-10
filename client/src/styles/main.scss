@@ -1,0 +1,58 @@
+
+body {
+background-color: #F9DEC9;
+font-family: Raleway;
+margin: auto;
+  background-image: url("https://www.clipartmax.com/png/full/166-1665925_cute-kawaii-pikachu-ballon-pokemon-no-cute-pikachu-moustache.png");
+  background-repeat: no-repeat;
+  min-height: 1000px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+input {
+font-family: Raleway;
+}
+
+.nav {
+background-color: #E9AFA3;
+width: 100%;
+vertical-align: middle;
+height: 115px;
+text-align: center;
+padding: 35px;
+top: 0;
+
+.splitNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links {
+  color: white;
+  padding: 0 10px;
+}
+
+.links:focus {
+  color: #4F2C26
+}
+
+h1 {
+  font-family: Raleway;
+  color: white;
+  font-size: 3em;
+  line-height: 0.5em;
+}
+
+h2 {
+  font-size: 1em;
+  display: inline;
+  color:white;
+  word-spacing: 10px;
+}
+
+a:hover {
+  color: #4F2C26;
+}
+}

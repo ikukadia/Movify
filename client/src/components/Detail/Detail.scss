@@ -1,0 +1,27 @@
+.Detail {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    .centerMe {
+      margin: 0 auto;
+      padding: 3% 5% 5% 5%;
+    }
+
+    .mybutton {
+      background-color: #FFFBA7;
+      color: #4F2C26;
+      
+    }
+
+    .mybutton:focus {
+      background-color: #E9AFA3;
+      color:  white;
+    } 
+
+    .mybutton:hover {
+      background-color: #E0F7FF;
+      color: #4F2C26;
+    }
+
+}

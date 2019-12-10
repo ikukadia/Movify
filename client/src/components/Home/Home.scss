@@ -1,0 +1,63 @@
+.Home {
+    text-align: center;
+
+    .searchBar {
+      position: relative;
+      width: 300px;
+      top: 120px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .movies {
+      margin-top: 3%;
+      padding: 0 10% 0 10%;
+      position: relative;
+      top: 100px;
+      text-align: center;
+    }
+
+    .hoverme:hover {
+        background-color: #E0F7FF;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .centerMe {
+      margin: 0 auto;
+    }
+
+    .mybutton {
+      background-color: #FFFBA7;
+      color: #4F2C26;
+      
+    }
+
+    .likebutton {
+      background-color: #FFFBA7;
+      color: #4F2C26;
+      padding: 6px 2px 8px 10px !important;
+    }
+
+    .likebutton:focus {
+      background-color: #E9AFA3;
+      color:  white;
+    } 
+
+    .likebutton:hover {
+      background-color: #E0F7FF;
+      color: #4F2C26;
+    }
+
+    .mybutton:focus {
+      background-color: #E9AFA3;
+      color:  white;
+    } 
+
+    .mybutton:hover {
+      background-color: #E0F7FF;
+      color: #4F2C26;
+    }
+
+}
